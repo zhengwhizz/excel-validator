@@ -10,7 +10,9 @@ $ composer require zhengwhizz/excel-validator -vvv
 
 ## Usage
 
-TODO
+```
+$request->validate(['file' => 'required|excel']);
+```
 
 ## Contributing
 
