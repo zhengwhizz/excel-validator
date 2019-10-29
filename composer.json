@@ -1,0 +1,24 @@
+{
+    "name": "zhengwhizz/excel-validator",
+    "description": "laravel validator for excel/wps files",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "J",
+            "email": "zhengjun.whizz@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zhengwhizz\\ExcelValidator\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zhengwhizz\\ExcelValidator\\ServiceProvider"
+            ]
+        }
+    }
+}
